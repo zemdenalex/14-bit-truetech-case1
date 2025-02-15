@@ -1,0 +1,17 @@
+/* Base Tailwind directives */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Import utilities */
+@import './utilities.css';
+
+/* Any global styles can go here */
+:root {
+  --primary: #7C3AED;
+  --primary-foreground: #FFFFFF;
+}
+
+body {
+  @apply antialiased;
+}
